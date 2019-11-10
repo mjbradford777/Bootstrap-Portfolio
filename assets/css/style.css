@@ -1,41 +1,8 @@
-h1 {
-    color: #4aaaa5;
-    border-bottom: 2px solid lightgray;
-}
-
-img {
-    padding: 0.1rem 1rem;
+body {
+    background-image: url('assets/images/background.png');
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 1rem;
-    width: 94rem;
-    height: 2rem;
+    background-color: blue;
     color: white;
-    background-color: #4aaaa5;
-    text-align: center;
-}
-
-.navbar {
-    border-bottom: 2px solid lightgray;
-}
-
-.navbar-brand {
-    text-decoration: none;
-    color: white;
-    background-color: #4aaaa5;
-    position: relative;
-    left: 10rem;
-}
-
-.nav-link {
-    position: relative;
-    left: 50rem;
-}
-
-.container {
-    position: relative;
-    left: 15rem;
 }
