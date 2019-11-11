@@ -13,14 +13,14 @@
             <a class="navbar-brand" href="#">Michael Bradford</a>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link text-right" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link text-right" href="portfolio.html">Portfolio</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-right" href="index.html">About</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-right" href="contact.html">Contact</a>
+                    <li class="nav-item active">
+                        <a class="nav-link text-right" href="contact.html">Contact<span class="sr-only">(current)</span></a>
                     </li>
                 </ul>
             </div>
@@ -30,76 +30,29 @@
 
         <main class="container">
             <header class="row">
-                <h1 class="col">Portfolio</h1>
+                <h1 class="col">Contact</h1>
             </header>
 
-            <section class="row">
-                <div class="col-sm-6">
-                    <div class="card mx-auto">
-                        <img src="assets/images/img0.jpg" class="card-img-top" alt="Project 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 1</h5>
-                            <a href="#" class="btn btn-primary">See it</a>
-                        </div>
-                    </div>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="John Smith">
                 </div>
-                <div class="col-sm-6">
-                    <div class="card mx-auto">
-                        <img src="assets/images/img1.jpg" class="card-img-top" alt="Project 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 2</h5>
-                            <a href="#" class="btn btn-primary">See it</a>
-                        </div>
-                    </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
                 </div>
-            </section>
-            <br>
-            <section class="row">
-                <div class="col-sm-6">
-                    <div class="card mx-auto">
-                        <img src="assets/images/img2.jpg" class="card-img-top" alt="Project 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 3</h5>
-                            <a href="#" class="btn btn-primary">See it</a>
-                        </div>
-                    </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
                 </div>
-                <div class="col-sm-6">
-                    <div class="card mx-auto">
-                        <img src="assets/images/img3.jpg" class="card-img-top" alt="Project 4">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 4</h5>
-                            <a href="#" class="btn btn-primary">See it</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <br>
-            <section class="row">
-                <div class="col-sm-6">
-                    <div class="card mx-auto">
-                        <img src="assets/images/img4.jpg" class="card-img-top" alt="Project 5">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 5</h5>
-                            <a href="#" class="btn btn-primary">See it</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="card mx-auto">
-                        <img src="assets/images/img5.jpg" class="card-img-top" alt="Project 6">
-                        <div class="card-body">
-                            <h5 class="card-title">Project 6</h5>
-                            <a href="#" class="btn btn-primary">See it</a>
-                        </div>
-                    </div>
-                </div>
-            </section>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </main>
 
         <br>
 
-        <footer class="page-footer font-small">
+        <footer id="contactFooter" class="page-footer font-small">
             <div class="footer-copyright text-center py-3">&copy Copyright</div>
         </footer>
 

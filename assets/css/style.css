@@ -26,6 +26,11 @@ footer {
     top: 1rem;
 }
 
+#contactFooter {
+    position: relative;
+    top: 4rem;
+}
+
 @media screen and (min-width: 590px) and (max-width: 1215px) {
     #indexFooter {
         position: relative;
