@@ -4,7 +4,7 @@ body {
 
 main {
     background-color: white;
-    padding-bottom: 0.5rem;
+    padding-bottom: 1rem;
     border: solid 0.05rem lightgray;
 }
 
@@ -19,4 +19,16 @@ footer {
     background-color: gray;
     color: blue;
     border-top: solid 0.35rem blue;
+}
+
+#indexFooter {
+    position: relative;
+    top: 1rem;
+}
+
+@media screen and (min-width: 590px) and (max-width: 1215px) {
+    #indexFooter {
+        position: relative;
+        top: 10rem;
+    }
 }
