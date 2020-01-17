@@ -9,16 +9,34 @@ main {
 }
 
 header {
-    color: blue;
+    color: #922724;
     padding: 0.5rem;
     border-bottom: 0.1rem solid lightgray;
     margin: 0.5rem;
 }
 
 footer {
-    background-color: gray;
-    color: blue;
-    border-top: solid 0.35rem blue;
+    background-color: #5CDB95;
+    color: white;
+    border-top: solid 0.35rem #5CDB95;
+}
+
+nav {
+    background-color: #5CDB95;
+}
+
+.card {
+    height: 30rem;
+}
+
+.card-body {
+    position: absolute;
+    top: 22rem;
+}
+
+.btn {
+    color: white;
+    background-color: #E34234;
 }
 
 #indexFooter {
@@ -31,9 +49,31 @@ footer {
     top: 4rem;
 }
 
+#card4 {
+    display: none;
+}
+
+#card5 {
+    display: none;
+}
+
+#card6 {
+    display: none;
+}
+
 @media screen and (min-width: 590px) and (max-width: 1215px) {
+    html {
+        font-size: 10px;
+    }
+
     #indexFooter {
         position: relative;
         top: 10rem;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    #card1 {
+        margin-bottom: 1rem;
     }
 }
