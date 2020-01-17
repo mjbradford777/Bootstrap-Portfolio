@@ -39,6 +39,14 @@ nav {
     background-color: #E34234;
 }
 
+.far {
+    margin: 0.5rem;
+}
+
+.fab {
+    margin: 0.5rem;
+}
+
 #indexFooter {
     position: relative;
     top: 1rem;
@@ -59,6 +67,14 @@ nav {
 
 #card6 {
     display: none;
+}
+
+#github {
+    color: black;
+}
+
+#resume {
+    color: red;
 }
 
 @media screen and (min-width: 590px) and (max-width: 1215px) {
