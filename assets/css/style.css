@@ -62,7 +62,7 @@ nav {
 }
 
 #resume {
-    color: red;
+    color: #007bff;
 }
 
 @media screen and (min-width: 590px) and (max-width: 1215px) {
